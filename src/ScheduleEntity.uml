@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.company.app.data.entity.ScheduleEntity</OriginalElement>
+  <nodes>
+    <node x="1102.2220117845109" y="5870.0">org.company.app.util.BaseSubForm</node>
+    <node x="1053.1094802188547" y="6159.0">org.company.app.ui.EditScheduleForm</node>
+    <node x="1622.0416666666665" y="3823.5">java.awt.Container.WakingRunnable</node>
+    <node x="1974.1386784511774" y="4786.0">java.awt.Container.MouseEventTargetFilter</node>
+    <node x="1269.9999999999998" y="2885.5">java.awt.Component.DummyRequestFocusController</node>
+    <node x="5441.083333333333" y="0.0">org.company.app.data.entity.ScheduleEntity</node>
+    <node x="1276.0" y="6655.0">org.company.app.util.FontUtil</node>
+    <node x="4722.083333333333" y="0.0">org.company.app.data.entity.TrainEntity</node>
+    <node x="644.984480218855" y="0.0">java.awt.image.ImageObserver</node>
+    <node x="2912.083333333333" y="4764.0">java.awt.Window.Type</node>
+    <node x="280.9999999999998" y="2819.0">java.awt.Component.BltBufferStrategy</node>
+    <node x="607.8470117845109" y="3823.5">java.awt.Component.FlipSubRegionBufferStrategy</node>
+    <node x="764.1094802188547" y="6258.0">org.company.app.ui.ProfileForm</node>
+    <node x="1103.0" y="6655.0">org.company.app.util.DialogUtil</node>
+    <node x="1731.1094802188547" y="6258.0">org.company.app.ui.TrainForm</node>
+    <node x="487.10948021885474" y="6225.0">org.company.app.ui.AddTrainForm</node>
+    <node x="6211.083333333333" y="0.0">org.company.app.Application</node>
+    <node x="3095.083333333333" y="3790.0">java.awt.Container.AccessibleAWTContainer</node>
+    <node x="0.0" y="2874.0">java.awt.Component.SingleBufferStrategy</node>
+    <node x="1207.8470117845109" y="5286.0">javax.swing.JFrame</node>
+    <node x="183.09701178451087" y="3823.5">java.awt.Component.BltSubRegionBufferStrategy</node>
+    <node x="4114.583333333333" y="89.0">javax.swing.table.TableModel</node>
+    <node x="2323.083333333333" y="4423.0">java.awt.Frame</node>
+    <node x="3976.083333333333" y="2852.0">org.company.app.util.CustomTableModel</node>
+    <node x="421.50000000000006" y="6655.0">org.company.app.util.BaseManager</node>
+    <node x="1177.8470117845109" y="5589.0">org.company.app.util.BaseForm</node>
+    <node x="1553.9999999999998" y="2897.5">javax.accessibility.Accessible</node>
+    <node x="668.6511468855215" y="288.0">java.awt.Component</node>
+    <node x="1867.1386784511774" y="3835.5">java.awt.Container.EventTargetFilter</node>
+    <node x="3483.1511468855215" y="89.0">java.io.Serializable</node>
+    <node x="3407.083333333333" y="3812.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler</node>
+    <node x="4328.083333333333" y="0.0">org.company.app.data.entity.UserEntity</node>
+    <node x="818.0" y="6782.0">org.company.app.data.manager.UserEntityManager</node>
+    <node x="2349.1094802188545" y="6236.0">org.company.app.ui.SignUpForm</node>
+    <node x="216.10948021885474" y="6269.0">org.company.app.ui.SignInForm</node>
+    <node x="3707.083333333333" y="3812.0">java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler</node>
+    <node x="822.4999999999998" y="4764.5">javax.swing.WindowConstants</node>
+    <node x="2116.4011468855215" y="2841.0">java.awt.Component.BaselineResizeBehavior</node>
+    <node x="0.0" y="6782.0">org.company.app.data.manager.TrainEntityManager</node>
+    <node x="1283.4999999999998" y="4809.5">java.beans.JavaBean</node>
+    <node x="1415.4999999999998" y="4809.5">javax.swing.SwingContainer</node>
+    <node x="1047.4999999999998" y="4809.5">javax.swing.TransferHandler.HasGetTransferHandler</node>
+    <node x="562.9999999999998" y="2808.0">java.awt.Component.FlipBufferStrategy</node>
+    <node x="3428.4148253366993" y="2841.0">java.awt.Component.AccessibleAWTComponent</node>
+    <node x="1409.1094802188547" y="6203.0">org.company.app.ui.AddScheduleForm</node>
+    <node x="1261.2220117845109" y="5738.0">org.company.app.ui.ScheduleForm</node>
+    <node x="1006.9999999999998" y="2874.0">java.awt.Component.ProxyCapabilities</node>
+    <node x="4031.583333333333" y="1344.0">javax.swing.table.AbstractTableModel</node>
+    <node x="533.0" y="6782.0">org.company.app.data.manager.ScheduleEntityManager</node>
+    <node x="1789.4011468855213" y="2577.0">java.awt.Container</node>
+    <node x="1690.1386784511774" y="4786.0">java.awt.Container.DropTargetEventTargetFilter</node>
+    <node x="2593.083333333333" y="4764.0">java.awt.Window.WindowDisposerRecord</node>
+    <node x="2614.708333333333" y="3328.0">java.awt.Window</node>
+    <node x="264.00000000000006" y="6782.0">org.company.app.data.manager.TicketEntityManager</node>
+    <node x="2236.9011468855215" y="89.0">java.awt.MenuContainer</node>
+    <node x="618.4999999999998" y="4809.5">javax.swing.RootPaneContainer</node>
+    <node x="2683.6511468855215" y="5374.0">java.awt.Frame.AccessibleAWTFrame</node>
+    <node x="3773.583333333333" y="4786.0">java.awt.Container.AccessibleAWTContainer.AccessibleContainerHandler</node>
+    <node x="2015.1094802188547" y="6170.0">org.company.app.ui.EditClientForm</node>
+    <node x="850.9999999999998" y="2885.5">java.awt.Component.AWTTreeLock</node>
+    <node x="3018.083333333333" y="4786.0">java.awt.Window.AccessibleAWTWindow</node>
+    <node x="5086.083333333333" y="0.0">org.company.app.data.entity.TicketEntity</node>
+    <node x="5864.083333333333" y="0.0">org.company.app.util.MysqlDatabase</node>
+    <node x="2647.6511468855215" y="5611.5">javax.swing.JFrame.AccessibleJFrame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javax.swing.JFrame.AccessibleJFrame" target="java.awt.Frame.AccessibleAWTFrame">
+      <point x="44.0" y="-27.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.image.ImageObserver">
+      <point x="-104.66666666666674" y="-1094.5" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="org.company.app.ui.ProfileForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-126.5" />
+      <point x="898.6094802188547" y="6139.0" />
+      <point x="1145.6595117845109" y="6139.0" />
+      <point x="-26.0625" y="38.5" />
+    </edge>
+    <edge source="java.awt.Container.WakingRunnable" target="java.awt.Container">
+      <point x="0.0" y="-27.0" />
+      <point x="1702.0416666666665" y="3298.0" />
+      <point x="1814.9844802188545" y="3298.0" />
+      <point x="-127.91666666666674" y="335.5" />
+    </edge>
+    <edge source="java.awt.Container.AccessibleAWTContainer.AccessibleContainerHandler" target="java.awt.Container.AccessibleAWTContainer">
+      <point x="-64.0" y="-38.5" />
+      <point x="3837.583333333333" y="4403.0" />
+      <point x="3314.083333333333" y="4403.0" />
+      <point x="73.0" y="60.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler" target="java.io.Serializable">
+      <point x="-70.0" y="-38.5" />
+      <point x="3477.083333333333" y="3298.0" />
+      <point x="3417.9148253366993" y="3298.0" />
+      <point x="3417.9148253366993" y="268.0" />
+      <point x="3546.1511468855215" y="268.0" />
+      <point x="-9.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.Window">
+      <point x="62.5" y="-401.5" />
+      <point x="2510.583333333333" y="4403.0" />
+      <point x="2657.333333333333" y="4403.0" />
+      <point x="-127.875" y="522.5" />
+    </edge>
+    <edge source="org.company.app.ui.AddScheduleForm" target="org.company.app.util.BaseSubForm">
+      <point x="2.2737367544323206E-13" y="-181.5" />
+      <point x="1560.109480218855" y="6129.0" />
+      <point x="1180.4095117845109" y="6129.0" />
+      <point x="8.6875" y="38.5" />
+    </edge>
+    <edge source="java.awt.Frame" target="java.awt.MenuContainer">
+      <point x="-62.5" y="-401.5" />
+      <point x="2385.583333333333" y="228.0" />
+      <point x="2350.9011468855215" y="228.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.accessibility.Accessible">
+      <point x="76.0" y="-126.5" />
+      <point x="1416.8470117845109" y="5256.0" />
+      <point x="1585.9999999999998" y="5256.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component.FlipBufferStrategy">
+      <point x="-81.0" y="-27.0" />
+      <point x="688.8470117845109" y="3308.0" />
+      <point x="696.4999999999998" y="3308.0" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="org.company.app.ui.EditClientForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-214.5" />
+      <point x="2172.1094802188545" y="6109.0" />
+      <point x="1215.1595117845109" y="6109.0" />
+      <point x="43.4375" y="38.5" />
+    </edge>
+    <edge source="java.awt.Window" target="javax.accessibility.Accessible">
+      <point x="-85.25" y="-522.5" />
+      <point x="2699.958333333333" y="3288.0" />
+      <point x="1649.9999999999998" y="3288.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.ProxyCapabilities" target="java.awt.Component">
+      <point x="0.0" y="-38.5" />
+      <point x="1128.4999999999998" y="2537.0" />
+      <point x="854.196601430976" y="2537.0" />
+      <point x="28.545454545454504" y="1094.5" />
+    </edge>
+    <edge source="org.company.app.util.CustomTableModel" target="javax.swing.table.AbstractTableModel">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler" target="java.io.Serializable">
+      <point x="62.0" y="-38.5" />
+      <point x="3893.083333333333" y="258.0" />
+      <point x="3582.1511468855215" y="258.0" />
+      <point x="27.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Window.AccessibleAWTWindow" target="java.awt.Container.AccessibleAWTContainer">
+      <point x="50.0" y="-38.5" />
+      <point x="-73.0" y="60.5" />
+    </edge>
+    <edge source="java.awt.Window.Type" target="java.io.Serializable">
+      <point x="21.5" y="-60.5" />
+      <point x="2976.583333333333" y="258.0" />
+      <point x="3528.1511468855215" y="258.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+    <edge source="org.company.app.ui.SignInForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-115.5" />
+      <point x="341.60948021885474" y="6119.0" />
+      <point x="1110.9095117845109" y="6119.0" />
+      <point x="-60.8125" y="38.5" />
+    </edge>
+    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component">
+      <point x="-79.75" y="-27.0" />
+      <point x="262.84701178451087" y="3308.0" />
+      <point x="270.4999999999998" y="3308.0" />
+      <point x="270.4999999999998" y="2537.0" />
+      <point x="711.4693287037032" y="2537.0" />
+      <point x="-114.18181818181824" y="1094.5" />
+    </edge>
+    <edge source="java.awt.Window.WindowDisposerRecord" target="java.awt.Window">
+      <point x="0.0" y="-60.5" />
+      <point x="-42.625" y="522.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.io.Serializable">
+      <point x="104.66666666666663" y="-1094.5" />
+      <point x="930.317813552188" y="238.0" />
+      <point x="3492.1511468855215" y="238.0" />
+      <point x="-63.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Container.DropTargetEventTargetFilter" target="java.awt.Container.EventTargetFilter">
+      <point x="66.0" y="-38.5" />
+      <point x="1888.1386784511774" y="4403.0" />
+      <point x="1913.1386784511774" y="4403.0" />
+      <point x="-46.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTFocusHandler" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="-62.0" y="-38.5" />
+      <point x="3769.083333333333" y="3308.0" />
+      <point x="3713.4148253366993" y="3308.0" />
+      <point x="114.0" y="71.5" />
+    </edge>
+    <edge source="org.company.app.ui.TrainForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-126.5" />
+      <point x="1863.1094802188547" y="6119.0" />
+      <point x="1197.7845117845109" y="6119.0" />
+      <point x="26.0625" y="38.5" />
+    </edge>
+    <edge source="java.awt.Container.AccessibleAWTContainer" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="73.0" y="-60.5" />
+      <point x="3314.083333333333" y="3308.0" />
+      <point x="3485.4148253366993" y="3308.0" />
+      <point x="-114.0" y="71.5" />
+    </edge>
+    <edge source="org.company.app.ui.EditScheduleForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-225.5" />
+      <point x="1221.1094802188547" y="6139.0" />
+      <point x="1163.0345117845109" y="6139.0" />
+      <point x="-8.6875" y="38.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.beans.JavaBean">
+      <point x="0.0" y="-126.5" />
+      <point x="1340.8470117845109" y="5266.0" />
+      <point x="1339.4999999999998" y="5266.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.BltBufferStrategy" target="java.awt.Component">
+      <point x="0.0" y="-93.5" />
+      <point x="411.9999999999998" y="2547.0" />
+      <point x="740.014783249158" y="2547.0" />
+      <point x="-85.63636363636363" y="1094.5" />
+    </edge>
+    <edge source="javax.swing.table.AbstractTableModel" target="java.io.Serializable">
+      <point x="-49.0" y="-38.5" />
+      <point x="4080.583333333333" y="238.0" />
+      <point x="3618.1511468855215" y="238.0" />
+      <point x="63.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.AWTTreeLock" target="java.awt.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="918.9999999999998" y="2547.0" />
+      <point x="825.6511468855215" y="2547.0" />
+      <point x="0.0" y="1094.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.awt.Component">
+      <point x="-85.5" y="-71.5" />
+      <point x="3513.9148253366993" y="2497.0" />
+      <point x="968.3784196127942" y="2497.0" />
+      <point x="142.72727272727275" y="1094.5" />
+    </edge>
+    <edge source="java.awt.Container.AccessibleAWTContainer" target="java.awt.Container">
+      <point x="-73.0" y="-60.5" />
+      <point x="3168.083333333333" y="3268.0" />
+      <point x="2070.817813552188" y="3268.0" />
+      <point x="127.91666666666674" y="335.5" />
+    </edge>
+    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.awt.Component">
+      <point x="-56.0" y="-71.5" />
+      <point x="2172.4011468855215" y="2507.0" />
+      <point x="939.8329650673397" y="2507.0" />
+      <point x="114.18181818181824" y="1094.5" />
+    </edge>
+    <edge source="org.company.app.util.BaseForm" target="javax.swing.JFrame">
+      <point x="0.0" y="-49.5" />
+      <point x="-66.5" y="126.5" />
+    </edge>
+    <edge source="org.company.app.data.manager.TicketEntityManager" target="org.company.app.util.BaseManager">
+      <point x="0.0" y="-27.0" />
+      <point x="388.50000000000006" y="6762.0" />
+      <point x="500.62500000000006" y="6762.0" />
+      <point x="-26.375" y="38.5" />
+    </edge>
+    <edge source="java.awt.Container.MouseEventTargetFilter" target="java.awt.Container">
+      <point x="56.0" y="-38.5" />
+      <point x="2142.1386784511774" y="4403.0" />
+      <point x="2114.3886784511774" y="4403.0" />
+      <point x="2114.3886784511774" y="3308.0" />
+      <point x="1968.4844802188545" y="3308.0" />
+      <point x="25.583333333333258" y="335.5" />
+    </edge>
+    <edge source="java.awt.Frame.AccessibleAWTFrame" target="java.awt.Frame">
+      <point x="-48.0" y="-38.5" />
+      <point x="2731.6511468855215" y="5266.0" />
+      <point x="2510.583333333333" y="5266.0" />
+      <point x="62.5" y="401.5" />
+    </edge>
+    <edge source="org.company.app.ui.SignUpForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-148.5" />
+      <point x="2474.6094802188545" y="6099.0" />
+      <point x="1232.5345117845109" y="6099.0" />
+      <point x="60.8125" y="38.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent" target="java.io.Serializable">
+      <point x="85.5" y="-71.5" />
+      <point x="3684.9148253366993" y="268.0" />
+      <point x="3564.1511468855215" y="268.0" />
+      <point x="9.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Container.EventTargetFilter" target="java.awt.Container">
+      <point x="0.0" y="-15.0" />
+      <point x="1959.1386784511774" y="3308.0" />
+      <point x="1917.317813552188" y="3308.0" />
+      <point x="-25.583333333333258" y="335.5" />
+    </edge>
+    <edge source="org.company.app.data.manager.UserEntityManager" target="org.company.app.util.BaseManager">
+      <point x="0.0" y="-27.0" />
+      <point x="938.0" y="6752.0" />
+      <point x="606.125" y="6752.0" />
+      <point x="79.125" y="38.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.RootPaneContainer">
+      <point x="-114.0" y="-126.5" />
+      <point x="1226.8470117845109" y="5266.0" />
+      <point x="710.4999999999998" y="5266.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Container.MouseEventTargetFilter" target="java.awt.Container.EventTargetFilter">
+      <point x="-56.0" y="-38.5" />
+      <point x="2030.1386784511774" y="4403.0" />
+      <point x="2005.1386784511774" y="4403.0" />
+      <point x="46.0" y="15.0" />
+    </edge>
+    <edge source="org.company.app.ui.ScheduleForm" target="org.company.app.util.BaseForm">
+      <point x="0.0" y="-170.5" />
+      <point x="1411.7220117845109" y="5718.0" />
+      <point x="1338.6803451178441" y="5718.0" />
+      <point x="64.33333333333326" y="49.5" />
+    </edge>
+    <edge source="java.awt.Component.AccessibleAWTComponent.AccessibleAWTComponentHandler" target="java.awt.Component.AccessibleAWTComponent">
+      <point x="70.0" y="-38.5" />
+      <point x="3617.083333333333" y="3308.0" />
+      <point x="3599.4148253366993" y="3308.0" />
+      <point x="0.0" y="71.5" />
+    </edge>
+    <edge source="java.awt.Component.DummyRequestFocusController" target="java.awt.Component">
+      <point x="0.0" y="-27.0" />
+      <point x="1401.9999999999998" y="2527.0" />
+      <point x="882.7420559764305" y="2527.0" />
+      <point x="57.09090909090912" y="1094.5" />
+    </edge>
+    <edge source="java.awt.Window.AccessibleAWTWindow" target="java.awt.Window">
+      <point x="-50.0" y="-38.5" />
+      <point x="3068.083333333333" y="4393.0" />
+      <point x="2913.083333333333" y="4393.0" />
+      <point x="127.875" y="522.5" />
+    </edge>
+    <edge source="org.company.app.util.BaseSubForm" target="org.company.app.util.BaseForm">
+      <point x="34.75" y="-38.5" />
+      <point x="1206.4720117845109" y="5718.0" />
+      <point x="1274.3470117845109" y="5718.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="java.awt.Window" target="java.awt.Container">
+      <point x="85.25" y="-522.5" />
+      <point x="2870.458333333333" y="3278.0" />
+      <point x="2019.6511468855213" y="3278.0" />
+      <point x="76.75" y="335.5" />
+    </edge>
+    <edge source="org.company.app.data.manager.ScheduleEntityManager" target="org.company.app.util.BaseManager">
+      <point x="0.0" y="-27.0" />
+      <point x="665.5" y="6762.0" />
+      <point x="553.375" y="6762.0" />
+      <point x="26.375" y="38.5" />
+    </edge>
+    <edge source="java.awt.Frame.AccessibleAWTFrame" target="java.awt.Window.AccessibleAWTWindow">
+      <point x="48.0" y="-38.5" />
+      <point x="2827.6511468855215" y="5266.0" />
+      <point x="3118.083333333333" y="5266.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="java.awt.Component" target="java.awt.MenuContainer">
+      <point x="0.0" y="-1094.5" />
+      <point x="825.6511468855215" y="228.0" />
+      <point x="2274.9011468855215" y="228.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.SingleBufferStrategy" target="java.awt.Component">
+      <point x="0.0" y="-38.5" />
+      <point x="130.0" y="2527.0" />
+      <point x="682.9238741582487" y="2527.0" />
+      <point x="-142.72727272727275" y="1094.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="java.awt.Frame">
+      <point x="114.0" y="-126.5" />
+      <point x="1454.8470117845109" y="5266.0" />
+      <point x="2385.583333333333" y="5266.0" />
+      <point x="-62.5" y="401.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.WindowConstants">
+      <point x="-76.0" y="-126.5" />
+      <point x="1264.8470117845109" y="5256.0" />
+      <point x="924.9999999999998" y="5256.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="java.awt.Container.AccessibleAWTContainer.AccessibleContainerHandler" target="java.io.Serializable">
+      <point x="64.0" y="-38.5" />
+      <point x="3965.583333333333" y="248.0" />
+      <point x="3600.1511468855215" y="248.0" />
+      <point x="45.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.FlipBufferStrategy" target="java.awt.Component">
+      <point x="0.0" y="-104.5" />
+      <point x="696.4999999999998" y="2557.0" />
+      <point x="768.5602377946125" y="2557.0" />
+      <point x="-57.09090909090912" y="1094.5" />
+    </edge>
+    <edge source="javax.swing.table.AbstractTableModel" target="javax.swing.table.TableModel">
+      <point x="49.0" y="-38.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Container.DropTargetEventTargetFilter" target="java.awt.Container">
+      <point x="-66.0" y="-38.5" />
+      <point x="1756.1386784511774" y="4403.0" />
+      <point x="1792.5416666666665" y="4403.0" />
+      <point x="1792.5416666666665" y="3308.0" />
+      <point x="1866.1511468855213" y="3308.0" />
+      <point x="-76.75" y="335.5" />
+    </edge>
+    <edge source="javax.swing.JFrame.AccessibleJFrame" target="javax.swing.JFrame">
+      <point x="-44.0" y="-27.0" />
+      <point x="2691.6511468855215" y="5564.0" />
+      <point x="1407.3470117845109" y="5564.0" />
+      <point x="66.5" y="126.5" />
+    </edge>
+    <edge source="java.awt.Component.BaselineResizeBehavior" target="java.io.Serializable">
+      <point x="56.0" y="-71.5" />
+      <point x="2284.4011468855215" y="248.0" />
+      <point x="3510.1511468855215" y="248.0" />
+      <point x="-45.0" y="15.0" />
+    </edge>
+    <edge source="java.awt.Component.BltSubRegionBufferStrategy" target="java.awt.Component.BltBufferStrategy">
+      <point x="79.75" y="-27.0" />
+      <point x="422.34701178451087" y="3308.0" />
+      <point x="411.9999999999998" y="3308.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="org.company.app.ui.AddTrainForm" target="org.company.app.util.BaseSubForm">
+      <point x="0.0" y="-159.5" />
+      <point x="615.6094802188547" y="6129.0" />
+      <point x="1128.2845117845109" y="6129.0" />
+      <point x="-43.4375" y="38.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.SwingContainer">
+      <point x="38.0" y="-126.5" />
+      <point x="1378.8470117845109" y="5246.0" />
+      <point x="1495.4999999999998" y="5246.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.company.app.data.manager.TrainEntityManager" target="org.company.app.util.BaseManager">
+      <point x="0.0" y="-27.0" />
+      <point x="122.0" y="6752.0" />
+      <point x="447.87500000000006" y="6752.0" />
+      <point x="-79.125" y="38.5" />
+    </edge>
+    <edge source="java.awt.Window.Type" target="java.awt.Window">
+      <point x="-21.5" y="-60.5" />
+      <point x="2933.583333333333" y="4403.0" />
+      <point x="2827.833333333333" y="4403.0" />
+      <point x="42.625" y="522.5" />
+    </edge>
+    <edge source="java.awt.Component.FlipSubRegionBufferStrategy" target="java.awt.Component">
+      <point x="81.0" y="-27.0" />
+      <point x="850.8470117845109" y="3308.0" />
+      <point x="840.4999999999998" y="3308.0" />
+      <point x="840.4999999999998" y="2557.0" />
+      <point x="797.105692340067" y="2557.0" />
+      <point x="-28.545454545454504" y="1094.5" />
+    </edge>
+    <edge source="java.awt.Container" target="java.awt.Component">
+      <point x="-2.2737367544323206E-13" y="-335.5" />
+      <point x="1942.901146885521" y="2517.0" />
+      <point x="911.2875105218852" y="2517.0" />
+      <point x="85.63636363636374" y="1094.5" />
+    </edge>
+    <edge source="javax.swing.JFrame" target="javax.swing.TransferHandler.HasGetTransferHandler">
+      <point x="-38.0" y="-126.5" />
+      <point x="1302.8470117845109" y="5246.0" />
+      <point x="1155.4999999999998" y="5246.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.09451575262543757" x="3195.5" y="3418.0" />
+  <SelectedNodes>
+    <node>org.company.app.data.entity.ScheduleEntity</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
