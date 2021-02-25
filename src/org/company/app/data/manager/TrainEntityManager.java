@@ -1,5 +1,6 @@
 package org.company.app.data.manager;
 
+import org.company.app.data.entity.CarEntity;
 import org.company.app.data.entity.ClientEntity;
 import org.company.app.data.entity.TrainEntity;
 import org.company.app.util.BaseManager;
@@ -77,6 +78,44 @@ public class TrainEntityManager extends BaseManager {
             return null;
         }
     }
+
+
+    public List<TrainEntity> getByScheduleId(int id) throws SQLException
+    {
+        try(Connection c = database.getConnection())
+        {
+            String sql = "SELECT * FROM train WHERE Schedule_ride_id = ?";
+            PreparedStatement s = c.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
+            s.setInt(1,id);
+            ResultSet resultSet =  s.executeQuery();
+
+            List<TrainEntity> trains = new ArrayList<>();
+            while(resultSet.next()) {
+                trains.add(new TrainEntity(
+                        resultSet.getInt("TrainID"),
+                        resultSet.getString("trainNumber"),
+                        resultSet.getString("trainName"),
+                        resultSet.getString("trainType"),
+                        resultSet.getString("trainDest"),
+                        resultSet.getInt("carCount"),
+                        resultSet.getInt("Schedule_ride_id")
+                ));
+            }
+
+            /**
+             * private int TrainID;
+             *     private String trainNumber;
+             *     private String trainName;
+             *     private String trainType;
+             *     private String trainDest;
+             *     private int carCount;
+             *        private int Schedule_ride_id;
+             *
+             * */
+            return trains;
+        }
+    }
+
 
     public List<TrainEntity> getAll() throws SQLException
     {

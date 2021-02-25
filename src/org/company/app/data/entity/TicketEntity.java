@@ -34,7 +34,6 @@ public class TicketEntity {
     }
 
     public TicketEntity(int userID, String ticketDest, Date departureTime, Date arrivalTime, int ticketPrice) {
-        this.Ticket_Number = -1;
         this.userID = userID;
         TicketDest = ticketDest;
         this.departureTime = departureTime;

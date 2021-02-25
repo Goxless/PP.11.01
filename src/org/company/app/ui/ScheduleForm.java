@@ -2,6 +2,7 @@ package org.company.app.ui;
 
 import org.company.app.Application;
 import org.company.app.data.entity.ScheduleEntity;
+import org.company.app.data.manager.CarEntityManger;
 import org.company.app.data.manager.ScheduleEntityManager;
 import org.company.app.data.manager.TicketEntityManager;
 import org.company.app.util.BaseForm;
@@ -14,8 +15,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ScheduleForm extends BaseForm {
 
@@ -34,6 +33,7 @@ public class ScheduleForm extends BaseForm {
 
     private final ScheduleEntityManager scheduleEntityManager = new ScheduleEntityManager(Application.getInstance().getDatabase());
     private final TicketEntityManager ticketEntityManager = new TicketEntityManager(Application.getInstance().getDatabase());
+    private final CarEntityManger carEntityManger = new CarEntityManger(Application.getInstance().getDatabase());
 
 
 
@@ -130,9 +130,16 @@ public class ScheduleForm extends BaseForm {
                 if(DialogUtil.showConfirm(ScheduleForm.this, "Do you want to purchase this ticket with id "+ScheduleId+" ?"))
                 {
                     try {
+                        if(!carEntityManger.canUpdateFullness(ScheduleId)){
+                            DialogUtil.showInfo("There is no empty seats,we are sorry");
+                            return;
+                        }
+
                         ticketEntityManager.add(scheduleEntityManager.getById(ScheduleId));
+
+
                     } catch (SQLException throwables) {
-                        DialogUtil.showInfo("Something went wrong "+throwables.getMessage());
+                        throwables.printStackTrace();
                     }
                 }
             }

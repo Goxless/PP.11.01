@@ -1,13 +1,9 @@
 package org.company.app.ui;
 
 import org.company.app.Application;
-import org.company.app.data.entity.ClientEntity;
-import org.company.app.data.entity.ScheduleEntity;
 import org.company.app.data.entity.TrainEntity;
-import org.company.app.data.manager.ClientEntityManager;
-import org.company.app.data.manager.ScheduleEntityManager;
+import org.company.app.data.manager.CarEntityManger;
 import org.company.app.data.manager.TrainEntityManager;
-import org.company.app.util.BaseForm;
 import org.company.app.util.BaseSubForm;
 import org.company.app.util.CustomTableModel;
 import org.company.app.util.DialogUtil;
@@ -18,9 +14,6 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.sql.SQLException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class TrainForm extends BaseSubForm<ScheduleForm> {
 
@@ -34,13 +27,13 @@ public class TrainForm extends BaseSubForm<ScheduleForm> {
     private CustomTableModel<TrainEntity> model;
 
     private final TrainEntityManager trainEntityManager = new TrainEntityManager(Application.getInstance().getDatabase());
+    private final CarEntityManger carEntityManger = new CarEntityManger(Application.getInstance().getDatabase());
     //private final ScheduleEntityManager trainEntityManager = new ScheduleEntityManager(Application.getInstance().getDatabase());
 
     public TrainForm(ScheduleForm scheduleForm) {
         super(scheduleForm);
         this.mainForm = scheduleForm;
         setContentPane(mainPanel);
-
         setVisible(true);
 
         initTable();
@@ -149,7 +142,11 @@ public class TrainForm extends BaseSubForm<ScheduleForm> {
                     if (e.getKeyCode() == KeyEvent.VK_DELETE && row != -1) {
                         if (DialogUtil.showConfirm(TrainForm.this, "Are you sure you want to delete this entry?")) {
                             try {
+
                                 trainEntityManager.delete(model.getValues().get(row));
+
+                                int a = carEntityManger.deleteByTrainId(model.getValues().get(row).getTrainID());
+
                                 model.getValues().remove(row);
                                 model.fireTableDataChanged();
 
@@ -161,6 +158,12 @@ public class TrainForm extends BaseSubForm<ScheduleForm> {
                 }
             }
         });
+
+        //FOREIGN KEY (TrainID) REFERENCES Customers (TrainID) ON DELETE CASCAD
+
+        //ALTER TABLE Car ADD CONSTRAINT 'car_ibfk_1' FOREIGN KEY (Train_ID) REFERENCES Train(TrainID) ON DELETE CASCAD;
+
+        //ALTER TABLE Car DROP Foreign Key Train_ID;
 
         table.addMouseListener(new MouseAdapter() {
             @Override

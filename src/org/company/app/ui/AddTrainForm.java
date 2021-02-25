@@ -1,8 +1,10 @@
 package org.company.app.ui;
 
 import org.company.app.Application;
+import org.company.app.data.entity.CarEntity;
 import org.company.app.data.entity.TrainEntity;
 import org.company.app.data.entity.UserEntity;
+import org.company.app.data.manager.CarEntityManger;
 import org.company.app.data.manager.TrainEntityManager;
 import org.company.app.data.manager.UserEntityManager;
 import org.company.app.util.BaseSubForm;
@@ -23,6 +25,8 @@ public class AddTrainForm extends BaseSubForm<ScheduleForm> {
     private JButton saveButton;
 
     private final TrainEntityManager trainEntityManager  = new TrainEntityManager(Application.getInstance().getDatabase());
+    private final CarEntityManger carEntityManger  = new CarEntityManger(Application.getInstance().getDatabase());
+
     private TrainEntity trainEntity = new TrainEntity();
 
     public AddTrainForm(ScheduleForm mainForm) {
@@ -47,6 +51,10 @@ public class AddTrainForm extends BaseSubForm<ScheduleForm> {
                 trainEntity.setSchedule_ride_id(Integer.parseInt(scheduleRideIdField.getText()));
                 trainEntityManager.add(trainEntity);
 
+                for (int i = 1; i <= trainEntity.getCarCount(); i++){
+                    carEntityManger.add(new CarEntity("pass",30,trainEntity.getTrainID(),0));
+                }
+
                 closeSubForm();
 
             } catch (Exception ex) {
@@ -60,6 +68,8 @@ public class AddTrainForm extends BaseSubForm<ScheduleForm> {
                 SignInButton.setVisible(false);
                 addScheduleButton.setVisible(true);
                 this.updateTableBehavior(table);
+
+
             }*/
 
         });
